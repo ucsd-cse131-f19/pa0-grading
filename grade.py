@@ -71,13 +71,13 @@ if os.path.exists("/autograder/submission/compiler"):
                                         stdin=subprocess.PIPE,
                                         stderr=subprocess.PIPE,
                                         shell=True).communicate("")
-    out_asm, err_asm = subprocess.Popen(" ".join(["nasm", "-f", "elf32", "-o",
+    out_asm, err_asm = subprocess.Popen(" ".join(["nasm", "-f", "elf64", "-o",
                                                   "42.o", "42.s"]),
                                         stdout=subprocess.PIPE,
                                         stdin=subprocess.PIPE,
                                         stderr=subprocess.PIPE,
                                         shell=True).communicate("")
-    out_ln, err_ln = subprocess.Popen(" ".join(["clang", "-m32", "-o", "42.run",
+    out_ln, err_ln = subprocess.Popen(" ".join(["clang", "-o", "42.run",
                                                 "main.c", "42.o"]),
                                       stdout=subprocess.PIPE,
                                       stdin=subprocess.PIPE,
