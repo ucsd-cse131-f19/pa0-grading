@@ -1,0 +1,10 @@
+#!/usr/bin/env bash
+
+ls source
+ls ~/.ssh
+git --version
+chmod 400 ./source/id_rsa
+cp ./source/config ~/.ssh/config
+git clone git@github.com:ucsd-cse131-f19/${ASSIGNMENT_TITLE}-grading.git
+rm ./source/id_rsa
+bash ${ASSIGNMENT_TITLE}-grading/ucsd-cse131-${ASSIGNMENT_TITLE}-grading/grade
