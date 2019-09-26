@@ -1,0 +1,513 @@
+2018-04-05T05:49:02+00:00 Christophs-MBP#00 I: Runner: processes
+2018-04-05T05:49:02+00:00 Christophs-MBP#00 I: Chooser: simple
+2018-04-05T05:49:02+00:00 Christophs-MBP#00 I: Configuration suite_name = "suite"
+2018-04-05T05:49:02+00:00 Christophs-MBP#00 I: Configuration cache_filename = "/Users/christoph/classwork/tutoring/pa0-grading/testFiles/_build/oUnit-$(suite_name).cache"
+2018-04-05T05:49:02+00:00 Christophs-MBP#00 I: Configuration display = "true"
+2018-04-05T05:49:02+00:00 Christophs-MBP#00 I: Configuration results_style_1_X = "false"
+2018-04-05T05:49:02+00:00 Christophs-MBP#00 I: Configuration verbose = "false"
+2018-04-05T05:49:02+00:00 Christophs-MBP#00 I: Configuration health_check_interval = "1."
+2018-04-05T05:49:02+00:00 Christophs-MBP#00 I: Configuration testdata_dir = "none"
+2018-04-05T05:49:02+00:00 Christophs-MBP#00 I: Configuration chooser = "simple"
+2018-04-05T05:49:02+00:00 Christophs-MBP#00 I: Configuration output_html_dir = "none"
+2018-04-05T05:49:02+00:00 Christophs-MBP#00 I: Configuration processes_kill_period = "5."
+2018-04-05T05:49:02+00:00 Christophs-MBP#00 I: Configuration runner = "processes"
+2018-04-05T05:49:02+00:00 Christophs-MBP#00 I: Configuration shards = "2"
+2018-04-05T05:49:02+00:00 Christophs-MBP#00 I: Configuration processes_grace_period = "5."
+2018-04-05T05:49:02+00:00 Christophs-MBP#00 I: Configuration log_encoding = "utf-8"
+2018-04-05T05:49:02+00:00 Christophs-MBP#00 I: Configuration output_junit_file = "none"
+2018-04-05T05:49:02+00:00 Christophs-MBP#00 I: Configuration output_file = "log"
+2018-04-05T05:49:02+00:00 Christophs-MBP#00 I: Using 2 workers maximum.
+2018-04-05T05:49:02+00:00 Christophs-MBP#00 W: -output-file doesn't include $(shard_id), shards won't have file log.
+2018-04-05T05:49:02+00:00 Christophs-MBP#00 I: Starting worker number Christophs-MBP#01.
+2018-04-05T05:49:02+00:00 Christophs-MBP#00 I: Worker Christophs-MBP#01 started.
+2018-04-05T05:49:02+00:00 Christophs-MBP#00 I: Starting worker number Christophs-MBP#02.
+2018-04-05T05:49:02+00:00 Christophs-MBP#00 I: Worker Christophs-MBP#02 started.
+2018-04-05T05:49:02+00:00 Christophs-MBP#00 I: 2 tests running: suite:0:fib tests:1:one case, suite:0:fib tests:0:zero case.
+2018-04-05T05:49:02+00:00 Christophs-MBP#01 I: Start test suite:0:fib tests:0:zero case.
+2018-04-05T05:49:02+00:00 Christophs-MBP#00 I: 2 tests running: suite:0:fib tests:1:one case, suite:0:fib tests:0:zero case.
+2018-04-05T05:49:02+00:00 Christophs-MBP#01 I: Test suite:0:fib tests:0:zero case is successful.
+2018-04-05T05:49:02+00:00 Christophs-MBP#00 I: 2 tests running: suite:0:fib tests:1:one case, suite:0:fib tests:0:zero case.
+2018-04-05T05:49:02+00:00 Christophs-MBP#01 I: End test suite:0:fib tests:0:zero case.
+2018-04-05T05:49:02+00:00 Christophs-MBP#02 I: Start test suite:0:fib tests:1:one case.
+2018-04-05T05:49:02+00:00 Christophs-MBP#00 I: 2 tests running: suite:0:fib tests:1:one case, suite:0:fib tests:0:zero case.
+2018-04-05T05:49:02+00:00 Christophs-MBP#00 I: 2 tests running: suite:0:fib tests:2:one recurse, suite:0:fib tests:1:one case.
+2018-04-05T05:49:02+00:00 Christophs-MBP#01 I: Start test suite:0:fib tests:2:one recurse.
+2018-04-05T05:49:02+00:00 Christophs-MBP#00 I: 2 tests running: suite:0:fib tests:2:one recurse, suite:0:fib tests:1:one case.
+2018-04-05T05:49:02+00:00 Christophs-MBP#02 I: Test suite:0:fib tests:1:one case is successful.
+2018-04-05T05:49:02+00:00 Christophs-MBP#01 I: Test suite:0:fib tests:2:one recurse is successful.
+2018-04-05T05:49:02+00:00 Christophs-MBP#00 I: 2 tests running: suite:0:fib tests:2:one recurse, suite:0:fib tests:1:one case.
+2018-04-05T05:49:02+00:00 Christophs-MBP#02 I: End test suite:0:fib tests:1:one case.
+2018-04-05T05:49:02+00:00 Christophs-MBP#01 I: End test suite:0:fib tests:2:one recurse.
+2018-04-05T05:49:02+00:00 Christophs-MBP#00 I: 2 tests running: suite:0:fib tests:2:one recurse, suite:0:fib tests:1:one case.
+2018-04-05T05:49:02+00:00 Christophs-MBP#00 I: 2 tests running: suite:1:max tests:0:equal max, suite:0:fib tests:3:larger val.
+2018-04-05T05:49:02+00:00 Christophs-MBP#01 I: Start test suite:0:fib tests:3:larger val.
+2018-04-05T05:49:02+00:00 Christophs-MBP#00 I: 2 tests running: suite:1:max tests:0:equal max, suite:0:fib tests:3:larger val.
+2018-04-05T05:49:02+00:00 Christophs-MBP#02 I: Start test suite:1:max tests:0:equal max.
+2018-04-05T05:49:02+00:00 Christophs-MBP#00 I: 2 tests running: suite:1:max tests:0:equal max, suite:0:fib tests:3:larger val.
+2018-04-05T05:49:02+00:00 Christophs-MBP#01 I: Test suite:0:fib tests:3:larger val is successful.
+2018-04-05T05:49:02+00:00 Christophs-MBP#02 I: Test suite:1:max tests:0:equal max is successful.
+2018-04-05T05:49:02+00:00 Christophs-MBP#00 I: 2 tests running: suite:1:max tests:0:equal max, suite:0:fib tests:3:larger val.
+2018-04-05T05:49:02+00:00 Christophs-MBP#01 I: End test suite:0:fib tests:3:larger val.
+2018-04-05T05:49:02+00:00 Christophs-MBP#02 I: End test suite:1:max tests:0:equal max.
+2018-04-05T05:49:02+00:00 Christophs-MBP#00 I: 2 tests running: suite:1:max tests:0:equal max, suite:0:fib tests:3:larger val.
+2018-04-05T05:49:02+00:00 Christophs-MBP#00 I: 2 tests running: suite:1:max tests:2:second smaller, suite:1:max tests:1:first smaller.
+2018-04-05T05:49:02+00:00 Christophs-MBP#02 I: Start test suite:1:max tests:1:first smaller.
+2018-04-05T05:49:02+00:00 Christophs-MBP#01 I: Start test suite:1:max tests:2:second smaller.
+2018-04-05T05:49:02+00:00 Christophs-MBP#00 I: 2 tests running: suite:1:max tests:2:second smaller, suite:1:max tests:1:first smaller.
+2018-04-05T05:49:02+00:00 Christophs-MBP#02 I: Test suite:1:max tests:1:first smaller is successful.
+2018-04-05T05:49:02+00:00 Christophs-MBP#01 I: Test suite:1:max tests:2:second smaller is successful.
+2018-04-05T05:49:02+00:00 Christophs-MBP#00 I: 2 tests running: suite:1:max tests:2:second smaller, suite:1:max tests:1:first smaller.
+2018-04-05T05:49:02+00:00 Christophs-MBP#02 I: End test suite:1:max tests:1:first smaller.
+2018-04-05T05:49:02+00:00 Christophs-MBP#01 I: End test suite:1:max tests:2:second smaller.
+2018-04-05T05:49:02+00:00 Christophs-MBP#00 I: 2 tests running: suite:1:max tests:2:second smaller, suite:1:max tests:1:first smaller.
+2018-04-05T05:49:02+00:00 Christophs-MBP#00 I: 2 tests running: suite:1:max tests:4:zero case, suite:1:max tests:3:negative nums.
+2018-04-05T05:49:02+00:00 Christophs-MBP#01 I: Start test suite:1:max tests:3:negative nums.
+2018-04-05T05:49:02+00:00 Christophs-MBP#02 I: Start test suite:1:max tests:4:zero case.
+2018-04-05T05:49:02+00:00 Christophs-MBP#00 I: 2 tests running: suite:1:max tests:4:zero case, suite:1:max tests:3:negative nums.
+2018-04-05T05:49:02+00:00 Christophs-MBP#01 I: Test suite:1:max tests:3:negative nums is successful.
+2018-04-05T05:49:02+00:00 Christophs-MBP#02 I: Test suite:1:max tests:4:zero case is successful.
+2018-04-05T05:49:02+00:00 Christophs-MBP#00 I: 2 tests running: suite:1:max tests:4:zero case, suite:1:max tests:3:negative nums.
+2018-04-05T05:49:02+00:00 Christophs-MBP#01 I: End test suite:1:max tests:3:negative nums.
+2018-04-05T05:49:02+00:00 Christophs-MBP#02 I: End test suite:1:max tests:4:zero case.
+2018-04-05T05:49:02+00:00 Christophs-MBP#00 I: 2 tests running: suite:1:max tests:4:zero case, suite:1:max tests:3:negative nums.
+2018-04-05T05:49:02+00:00 Christophs-MBP#00 I: 2 tests running: suite:2:tree inorder tests:1:one node, suite:2:tree inorder tests:0:just a leaf.
+2018-04-05T05:49:02+00:00 Christophs-MBP#01 I: Start test suite:2:tree inorder tests:1:one node.
+2018-04-05T05:49:02+00:00 Christophs-MBP#00 I: 2 tests running: suite:2:tree inorder tests:1:one node, suite:2:tree inorder tests:0:just a leaf.
+2018-04-05T05:49:02+00:00 Christophs-MBP#02 I: Start test suite:2:tree inorder tests:0:just a leaf.
+2018-04-05T05:49:02+00:00 Christophs-MBP#00 I: 2 tests running: suite:2:tree inorder tests:1:one node, suite:2:tree inorder tests:0:just a leaf.
+2018-04-05T05:49:02+00:00 Christophs-MBP#01 I: Test suite:2:tree inorder tests:1:one node is successful.
+2018-04-05T05:49:02+00:00 Christophs-MBP#00 I: 2 tests running: suite:2:tree inorder tests:1:one node, suite:2:tree inorder tests:0:just a leaf.
+2018-04-05T05:49:02+00:00 Christophs-MBP#02 I: Test suite:2:tree inorder tests:0:just a leaf is successful.
+2018-04-05T05:49:02+00:00 Christophs-MBP#01 I: End test suite:2:tree inorder tests:1:one node.
+2018-04-05T05:49:02+00:00 Christophs-MBP#00 I: 2 tests running: suite:2:tree inorder tests:1:one node, suite:2:tree inorder tests:0:just a leaf.
+2018-04-05T05:49:02+00:00 Christophs-MBP#02 I: End test suite:2:tree inorder tests:0:just a leaf.
+2018-04-05T05:49:02+00:00 Christophs-MBP#00 I: 2 tests running: suite:2:tree inorder tests:2:node with left child, suite:2:tree inorder tests:0:just a leaf.
+2018-04-05T05:49:02+00:00 Christophs-MBP#00 I: 2 tests running: suite:2:tree inorder tests:3:node with right child, suite:2:tree inorder tests:2:node with left child.
+2018-04-05T05:49:02+00:00 Christophs-MBP#01 I: Start test suite:2:tree inorder tests:2:node with left child.
+2018-04-05T05:49:02+00:00 Christophs-MBP#00 I: 2 tests running: suite:2:tree inorder tests:3:node with right child, suite:2:tree inorder tests:2:node with left child.
+2018-04-05T05:49:02+00:00 Christophs-MBP#02 I: Start test suite:2:tree inorder tests:3:node with right child.
+2018-04-05T05:49:02+00:00 Christophs-MBP#00 I: 2 tests running: suite:2:tree inorder tests:3:node with right child, suite:2:tree inorder tests:2:node with left child.
+2018-04-05T05:49:02+00:00 Christophs-MBP#01 I: Test suite:2:tree inorder tests:2:node with left child is successful.
+2018-04-05T05:49:02+00:00 Christophs-MBP#00 I: 2 tests running: suite:2:tree inorder tests:3:node with right child, suite:2:tree inorder tests:2:node with left child.
+2018-04-05T05:49:02+00:00 Christophs-MBP#01 I: End test suite:2:tree inorder tests:2:node with left child.
+2018-04-05T05:49:02+00:00 Christophs-MBP#02 I: Test suite:2:tree inorder tests:3:node with right child is successful.
+2018-04-05T05:49:02+00:00 Christophs-MBP#00 I: 2 tests running: suite:2:tree inorder tests:3:node with right child, suite:2:tree inorder tests:2:node with left child.
+2018-04-05T05:49:02+00:00 Christophs-MBP#02 I: End test suite:2:tree inorder tests:3:node with right child.
+2018-04-05T05:49:02+00:00 Christophs-MBP#00 I: 2 tests running: suite:2:tree inorder tests:4:node with two children, suite:2:tree inorder tests:3:node with right child.
+2018-04-05T05:49:02+00:00 Christophs-MBP#00 I: 2 tests running: suite:3:tree size tests:0:just a leaf, suite:2:tree inorder tests:4:node with two children.
+2018-04-05T05:49:02+00:00 Christophs-MBP#01 I: Start test suite:2:tree inorder tests:4:node with two children.
+2018-04-05T05:49:02+00:00 Christophs-MBP#02 I: Start test suite:3:tree size tests:0:just a leaf.
+2018-04-05T05:49:02+00:00 Christophs-MBP#00 I: 2 tests running: suite:3:tree size tests:0:just a leaf, suite:2:tree inorder tests:4:node with two children.
+2018-04-05T05:49:02+00:00 Christophs-MBP#01 I: Test suite:2:tree inorder tests:4:node with two children is successful.
+2018-04-05T05:49:02+00:00 Christophs-MBP#00 I: 2 tests running: suite:3:tree size tests:0:just a leaf, suite:2:tree inorder tests:4:node with two children.
+2018-04-05T05:49:02+00:00 Christophs-MBP#01 I: End test suite:2:tree inorder tests:4:node with two children.
+2018-04-05T05:49:02+00:00 Christophs-MBP#02 I: Test suite:3:tree size tests:0:just a leaf is successful.
+2018-04-05T05:49:02+00:00 Christophs-MBP#00 I: 2 tests running: suite:3:tree size tests:0:just a leaf, suite:2:tree inorder tests:4:node with two children.
+2018-04-05T05:49:02+00:00 Christophs-MBP#02 I: End test suite:3:tree size tests:0:just a leaf.
+2018-04-05T05:49:02+00:00 Christophs-MBP#00 I: 2 tests running: suite:3:tree size tests:1:one node, suite:3:tree size tests:0:just a leaf.
+2018-04-05T05:49:02+00:00 Christophs-MBP#01 I: Start test suite:3:tree size tests:1:one node.
+2018-04-05T05:49:02+00:00 Christophs-MBP#00 I: 2 tests running: suite:3:tree size tests:2:node with left child, suite:3:tree size tests:1:one node.
+2018-04-05T05:49:02+00:00 Christophs-MBP#02 I: Start test suite:3:tree size tests:2:node with left child.
+2018-04-05T05:49:02+00:00 Christophs-MBP#00 I: 2 tests running: suite:3:tree size tests:2:node with left child, suite:3:tree size tests:1:one node.
+2018-04-05T05:49:02+00:00 Christophs-MBP#01 I: Test suite:3:tree size tests:1:one node is successful.
+2018-04-05T05:49:02+00:00 Christophs-MBP#00 I: 2 tests running: suite:3:tree size tests:2:node with left child, suite:3:tree size tests:1:one node.
+2018-04-05T05:49:02+00:00 Christophs-MBP#01 I: End test suite:3:tree size tests:1:one node.
+2018-04-05T05:49:02+00:00 Christophs-MBP#02 I: Test suite:3:tree size tests:2:node with left child is successful.
+2018-04-05T05:49:02+00:00 Christophs-MBP#00 I: 2 tests running: suite:3:tree size tests:2:node with left child, suite:3:tree size tests:1:one node.
+2018-04-05T05:49:02+00:00 Christophs-MBP#02 I: End test suite:3:tree size tests:2:node with left child.
+2018-04-05T05:49:02+00:00 Christophs-MBP#00 I: 2 tests running: suite:3:tree size tests:3:node with right child, suite:3:tree size tests:2:node with left child.
+2018-04-05T05:49:02+00:00 Christophs-MBP#01 I: Start test suite:3:tree size tests:3:node with right child.
+2018-04-05T05:49:02+00:00 Christophs-MBP#00 I: 2 tests running: suite:3:tree size tests:4:node with two children, suite:3:tree size tests:3:node with right child.
+2018-04-05T05:49:02+00:00 Christophs-MBP#02 I: Start test suite:3:tree size tests:4:node with two children.
+2018-04-05T05:49:02+00:00 Christophs-MBP#00 I: 2 tests running: suite:3:tree size tests:4:node with two children, suite:3:tree size tests:3:node with right child.
+2018-04-05T05:49:02+00:00 Christophs-MBP#01 I: Test suite:3:tree size tests:3:node with right child is successful.
+2018-04-05T05:49:02+00:00 Christophs-MBP#00 I: 2 tests running: suite:3:tree size tests:4:node with two children, suite:3:tree size tests:3:node with right child.
+2018-04-05T05:49:02+00:00 Christophs-MBP#01 I: End test suite:3:tree size tests:3:node with right child.
+2018-04-05T05:49:02+00:00 Christophs-MBP#00 I: 2 tests running: suite:3:tree size tests:4:node with two children, suite:3:tree size tests:3:node with right child.
+2018-04-05T05:49:02+00:00 Christophs-MBP#02 I: Test suite:3:tree size tests:4:node with two children is successful.
+2018-04-05T05:49:02+00:00 Christophs-MBP#00 I: 2 tests running: suite:4:tree height tests:0:just a leaf, suite:3:tree size tests:4:node with two children.
+2018-04-05T05:49:02+00:00 Christophs-MBP#02 I: End test suite:3:tree size tests:4:node with two children.
+2018-04-05T05:49:02+00:00 Christophs-MBP#00 I: 2 tests running: suite:4:tree height tests:0:just a leaf, suite:3:tree size tests:4:node with two children.
+2018-04-05T05:49:02+00:00 Christophs-MBP#01 I: Start test suite:4:tree height tests:0:just a leaf.
+2018-04-05T05:49:02+00:00 Christophs-MBP#00 I: 2 tests running: suite:4:tree height tests:1:one node, suite:4:tree height tests:0:just a leaf.
+2018-04-05T05:49:02+00:00 Christophs-MBP#02 I: Start test suite:4:tree height tests:1:one node.
+2018-04-05T05:49:02+00:00 Christophs-MBP#00 I: 2 tests running: suite:4:tree height tests:1:one node, suite:4:tree height tests:0:just a leaf.
+2018-04-05T05:49:02+00:00 Christophs-MBP#01 I: Test suite:4:tree height tests:0:just a leaf is successful.
+2018-04-05T05:49:02+00:00 Christophs-MBP#00 I: 2 tests running: suite:4:tree height tests:1:one node, suite:4:tree height tests:0:just a leaf.
+2018-04-05T05:49:02+00:00 Christophs-MBP#01 I: End test suite:4:tree height tests:0:just a leaf.
+2018-04-05T05:49:02+00:00 Christophs-MBP#00 I: 2 tests running: suite:4:tree height tests:1:one node, suite:4:tree height tests:0:just a leaf.
+2018-04-05T05:49:02+00:00 Christophs-MBP#02 I: Test suite:4:tree height tests:1:one node is successful.
+2018-04-05T05:49:02+00:00 Christophs-MBP#00 I: 2 tests running: suite:4:tree height tests:2:node with left child, suite:4:tree height tests:1:one node.
+2018-04-05T05:49:02+00:00 Christophs-MBP#02 I: End test suite:4:tree height tests:1:one node.
+2018-04-05T05:49:02+00:00 Christophs-MBP#01 I: Start test suite:4:tree height tests:2:node with left child.
+2018-04-05T05:49:02+00:00 Christophs-MBP#00 I: 2 tests running: suite:4:tree height tests:2:node with left child, suite:4:tree height tests:1:one node.
+2018-04-05T05:49:02+00:00 Christophs-MBP#00 I: 2 tests running: suite:4:tree height tests:3:node with right child, suite:4:tree height tests:2:node with left child.
+2018-04-05T05:49:02+00:00 Christophs-MBP#02 I: Start test suite:4:tree height tests:3:node with right child.
+2018-04-05T05:49:02+00:00 Christophs-MBP#00 I: 2 tests running: suite:4:tree height tests:3:node with right child, suite:4:tree height tests:2:node with left child.
+2018-04-05T05:49:02+00:00 Christophs-MBP#01 I: Test suite:4:tree height tests:2:node with left child is successful.
+2018-04-05T05:49:02+00:00 Christophs-MBP#00 I: 2 tests running: suite:4:tree height tests:3:node with right child, suite:4:tree height tests:2:node with left child.
+2018-04-05T05:49:02+00:00 Christophs-MBP#01 I: End test suite:4:tree height tests:2:node with left child.
+2018-04-05T05:49:02+00:00 Christophs-MBP#00 I: 2 tests running: suite:4:tree height tests:3:node with right child, suite:4:tree height tests:2:node with left child.
+2018-04-05T05:49:02+00:00 Christophs-MBP#00 I: 2 tests running: suite:4:tree height tests:4:node with two children, suite:4:tree height tests:3:node with right child.
+2018-04-05T05:49:02+00:00 Christophs-MBP#02 I: Test suite:4:tree height tests:3:node with right child is successful.
+2018-04-05T05:49:02+00:00 Christophs-MBP#00 I: 2 tests running: suite:4:tree height tests:4:node with two children, suite:4:tree height tests:3:node with right child.
+2018-04-05T05:49:02+00:00 Christophs-MBP#02 I: End test suite:4:tree height tests:3:node with right child.
+2018-04-05T05:49:02+00:00 Christophs-MBP#00 I: 2 tests running: suite:4:tree height tests:4:node with two children, suite:4:tree height tests:3:node with right child.
+2018-04-05T05:49:02+00:00 Christophs-MBP#01 I: Start test suite:4:tree height tests:4:node with two children.
+2018-04-05T05:49:02+00:00 Christophs-MBP#00 I: 2 tests running: suite:4:tree height tests:5:node with taller left subtree, suite:4:tree height tests:4:node with two children.
+2018-04-05T05:49:02+00:00 Christophs-MBP#02 I: Start test suite:4:tree height tests:5:node with taller left subtree.
+2018-04-05T05:49:02+00:00 Christophs-MBP#00 I: 2 tests running: suite:4:tree height tests:5:node with taller left subtree, suite:4:tree height tests:4:node with two children.
+2018-04-05T05:49:02+00:00 Christophs-MBP#01 I: Test suite:4:tree height tests:4:node with two children is successful.
+2018-04-05T05:49:02+00:00 Christophs-MBP#00 I: 2 tests running: suite:4:tree height tests:5:node with taller left subtree, suite:4:tree height tests:4:node with two children.
+2018-04-05T05:49:02+00:00 Christophs-MBP#01 I: End test suite:4:tree height tests:4:node with two children.
+2018-04-05T05:49:02+00:00 Christophs-MBP#00 I: 2 tests running: suite:4:tree height tests:5:node with taller left subtree, suite:4:tree height tests:4:node with two children.
+2018-04-05T05:49:02+00:00 Christophs-MBP#00 I: 2 tests running: suite:4:tree height tests:6:node with taller right subtree, suite:4:tree height tests:5:node with taller left subtree.
+2018-04-05T05:49:02+00:00 Christophs-MBP#02 I: Test suite:4:tree height tests:5:node with taller left subtree is successful.
+2018-04-05T05:49:02+00:00 Christophs-MBP#01 I: Start test suite:4:tree height tests:6:node with taller right subtree.
+2018-04-05T05:49:02+00:00 Christophs-MBP#00 I: 2 tests running: suite:4:tree height tests:6:node with taller right subtree, suite:4:tree height tests:5:node with taller left subtree.
+2018-04-05T05:49:02+00:00 Christophs-MBP#02 I: End test suite:4:tree height tests:5:node with taller left subtree.
+2018-04-05T05:49:02+00:00 Christophs-MBP#00 I: 2 tests running: suite:4:tree height tests:6:node with taller right subtree, suite:4:tree height tests:5:node with taller left subtree.
+2018-04-05T05:49:02+00:00 Christophs-MBP#00 I: 2 tests running: suite:5:sum of squares tests:0:empty list sum of squares, suite:4:tree height tests:6:node with taller right subtree.
+2018-04-05T05:49:02+00:00 Christophs-MBP#01 I: Test suite:4:tree height tests:6:node with taller right subtree is successful.
+2018-04-05T05:49:02+00:00 Christophs-MBP#00 I: 2 tests running: suite:5:sum of squares tests:0:empty list sum of squares, suite:4:tree height tests:6:node with taller right subtree.
+2018-04-05T05:49:02+00:00 Christophs-MBP#01 I: End test suite:4:tree height tests:6:node with taller right subtree.
+2018-04-05T05:49:02+00:00 Christophs-MBP#00 I: 2 tests running: suite:5:sum of squares tests:0:empty list sum of squares, suite:4:tree height tests:6:node with taller right subtree.
+2018-04-05T05:49:02+00:00 Christophs-MBP#02 I: Start test suite:5:sum of squares tests:0:empty list sum of squares.
+2018-04-05T05:49:02+00:00 Christophs-MBP#00 I: 2 tests running: suite:5:sum of squares tests:1:single element, suite:5:sum of squares tests:0:empty list sum of squares.
+2018-04-05T05:49:02+00:00 Christophs-MBP#01 I: Start test suite:5:sum of squares tests:1:single element.
+2018-04-05T05:49:02+00:00 Christophs-MBP#00 I: 2 tests running: suite:5:sum of squares tests:1:single element, suite:5:sum of squares tests:0:empty list sum of squares.
+2018-04-05T05:49:02+00:00 Christophs-MBP#02 I: Test suite:5:sum of squares tests:0:empty list sum of squares is successful.
+2018-04-05T05:49:02+00:00 Christophs-MBP#00 I: 2 tests running: suite:5:sum of squares tests:1:single element, suite:5:sum of squares tests:0:empty list sum of squares.
+2018-04-05T05:49:02+00:00 Christophs-MBP#02 I: End test suite:5:sum of squares tests:0:empty list sum of squares.
+2018-04-05T05:49:02+00:00 Christophs-MBP#01 I: Test suite:5:sum of squares tests:1:single element is successful.
+2018-04-05T05:49:02+00:00 Christophs-MBP#00 I: 2 tests running: suite:5:sum of squares tests:1:single element, suite:5:sum of squares tests:0:empty list sum of squares.
+2018-04-05T05:49:02+00:00 Christophs-MBP#01 I: End test suite:5:sum of squares tests:1:single element.
+2018-04-05T05:49:02+00:00 Christophs-MBP#00 I: 2 tests running: suite:5:sum of squares tests:2:multiple elements, second non-zero, suite:5:sum of squares tests:1:single element.
+2018-04-05T05:49:02+00:00 Christophs-MBP#00 I: 2 tests running: suite:5:sum of squares tests:3:multiple elements, first non-zero, suite:5:sum of squares tests:2:multiple elements, second non-zero.
+2018-04-05T05:49:02+00:00 Christophs-MBP#02 I: Start test suite:5:sum of squares tests:2:multiple elements, second non-zero.
+2018-04-05T05:49:02+00:00 Christophs-MBP#00 I: 2 tests running: suite:5:sum of squares tests:3:multiple elements, first non-zero, suite:5:sum of squares tests:2:multiple elements, second non-zero.
+2018-04-05T05:49:02+00:00 Christophs-MBP#01 I: Start test suite:5:sum of squares tests:3:multiple elements, first non-zero.
+2018-04-05T05:49:02+00:00 Christophs-MBP#00 I: 2 tests running: suite:5:sum of squares tests:3:multiple elements, first non-zero, suite:5:sum of squares tests:2:multiple elements, second non-zero.
+2018-04-05T05:49:02+00:00 Christophs-MBP#02 I: Test suite:5:sum of squares tests:2:multiple elements, second non-zero is successful.
+2018-04-05T05:49:02+00:00 Christophs-MBP#00 I: 2 tests running: suite:5:sum of squares tests:3:multiple elements, first non-zero, suite:5:sum of squares tests:2:multiple elements, second non-zero.
+2018-04-05T05:49:02+00:00 Christophs-MBP#02 I: End test suite:5:sum of squares tests:2:multiple elements, second non-zero.
+2018-04-05T05:49:02+00:00 Christophs-MBP#01 I: Test suite:5:sum of squares tests:3:multiple elements, first non-zero is successful.
+2018-04-05T05:49:02+00:00 Christophs-MBP#00 I: 2 tests running: suite:5:sum of squares tests:3:multiple elements, first non-zero, suite:5:sum of squares tests:2:multiple elements, second non-zero.
+2018-04-05T05:49:02+00:00 Christophs-MBP#01 I: End test suite:5:sum of squares tests:3:multiple elements, first non-zero.
+2018-04-05T05:49:02+00:00 Christophs-MBP#00 I: 2 tests running: suite:5:sum of squares tests:4:long list, negatives, suite:5:sum of squares tests:3:multiple elements, first non-zero.
+2018-04-05T05:49:02+00:00 Christophs-MBP#02 I: Start test suite:5:sum of squares tests:4:long list, negatives.
+2018-04-05T05:49:02+00:00 Christophs-MBP#00 I: 2 tests running: suite:6:remainders tests:0:empty list remainders, suite:5:sum of squares tests:4:long list, negatives.
+2018-04-05T05:49:02+00:00 Christophs-MBP#01 I: Start test suite:6:remainders tests:0:empty list remainders.
+2018-04-05T05:49:02+00:00 Christophs-MBP#00 I: 2 tests running: suite:6:remainders tests:0:empty list remainders, suite:5:sum of squares tests:4:long list, negatives.
+2018-04-05T05:49:02+00:00 Christophs-MBP#02 I: Test suite:5:sum of squares tests:4:long list, negatives is successful.
+2018-04-05T05:49:02+00:00 Christophs-MBP#00 I: 2 tests running: suite:6:remainders tests:0:empty list remainders, suite:5:sum of squares tests:4:long list, negatives.
+2018-04-05T05:49:02+00:00 Christophs-MBP#02 I: End test suite:5:sum of squares tests:4:long list, negatives.
+2018-04-05T05:49:02+00:00 Christophs-MBP#00 I: 2 tests running: suite:6:remainders tests:0:empty list remainders, suite:5:sum of squares tests:4:long list, negatives.
+2018-04-05T05:49:02+00:00 Christophs-MBP#01 I: Test suite:6:remainders tests:0:empty list remainders is successful.
+2018-04-05T05:49:02+00:00 Christophs-MBP#00 I: 2 tests running: suite:6:remainders tests:1:single element list, no div, suite:6:remainders tests:0:empty list remainders.
+2018-04-05T05:49:02+00:00 Christophs-MBP#01 I: End test suite:6:remainders tests:0:empty list remainders.
+2018-04-05T05:49:02+00:00 Christophs-MBP#00 I: 2 tests running: suite:6:remainders tests:1:single element list, no div, suite:6:remainders tests:0:empty list remainders.
+2018-04-05T05:49:02+00:00 Christophs-MBP#02 I: Start test suite:6:remainders tests:1:single element list, no div.
+2018-04-05T05:49:02+00:00 Christophs-MBP#00 I: 2 tests running: suite:6:remainders tests:2:single element list, div, suite:6:remainders tests:1:single element list, no div.
+2018-04-05T05:49:02+00:00 Christophs-MBP#01 I: Start test suite:6:remainders tests:2:single element list, div.
+2018-04-05T05:49:02+00:00 Christophs-MBP#00 I: 2 tests running: suite:6:remainders tests:2:single element list, div, suite:6:remainders tests:1:single element list, no div.
+2018-04-05T05:49:02+00:00 Christophs-MBP#02 I: Test suite:6:remainders tests:1:single element list, no div is successful.
+2018-04-05T05:49:02+00:00 Christophs-MBP#00 I: 2 tests running: suite:6:remainders tests:2:single element list, div, suite:6:remainders tests:1:single element list, no div.
+2018-04-05T05:49:02+00:00 Christophs-MBP#02 I: End test suite:6:remainders tests:1:single element list, no div.
+2018-04-05T05:49:02+00:00 Christophs-MBP#00 I: 2 tests running: suite:6:remainders tests:2:single element list, div, suite:6:remainders tests:1:single element list, no div.
+2018-04-05T05:49:02+00:00 Christophs-MBP#01 I: Test suite:6:remainders tests:2:single element list, div is successful.
+2018-04-05T05:49:02+00:00 Christophs-MBP#00 I: 2 tests running: suite:6:remainders tests:3:multiple element list, no div, suite:6:remainders tests:2:single element list, div.
+2018-04-05T05:49:02+00:00 Christophs-MBP#01 I: End test suite:6:remainders tests:2:single element list, div.
+2018-04-05T05:49:02+00:00 Christophs-MBP#02 I: Start test suite:6:remainders tests:3:multiple element list, no div.
+2018-04-05T05:49:02+00:00 Christophs-MBP#00 I: 2 tests running: suite:6:remainders tests:3:multiple element list, no div, suite:6:remainders tests:2:single element list, div.
+2018-04-05T05:49:02+00:00 Christophs-MBP#00 I: 2 tests running: suite:6:remainders tests:4:multiple element list, div, suite:6:remainders tests:3:multiple element list, no div.
+2018-04-05T05:49:02+00:00 Christophs-MBP#02 I: Test suite:6:remainders tests:3:multiple element list, no div is successful.
+2018-04-05T05:49:02+00:00 Christophs-MBP#01 I: Start test suite:6:remainders tests:4:multiple element list, div.
+2018-04-05T05:49:02+00:00 Christophs-MBP#00 I: 2 tests running: suite:6:remainders tests:4:multiple element list, div, suite:6:remainders tests:3:multiple element list, no div.
+2018-04-05T05:49:02+00:00 Christophs-MBP#02 I: End test suite:6:remainders tests:3:multiple element list, no div.
+2018-04-05T05:49:02+00:00 Christophs-MBP#00 I: 2 tests running: suite:6:remainders tests:4:multiple element list, div, suite:6:remainders tests:3:multiple element list, no div.
+2018-04-05T05:49:02+00:00 Christophs-MBP#01 I: Test suite:6:remainders tests:4:multiple element list, div is successful.
+2018-04-05T05:49:02+00:00 Christophs-MBP#00 I: 2 tests running: suite:6:remainders tests:5:multiple element list, greater list vals, suite:6:remainders tests:4:multiple element list, div.
+2018-04-05T05:49:02+00:00 Christophs-MBP#01 I: End test suite:6:remainders tests:4:multiple element list, div.
+2018-04-05T05:49:02+00:00 Christophs-MBP#02 I: Start test suite:6:remainders tests:5:multiple element list, greater list vals.
+2018-04-05T05:49:02+00:00 Christophs-MBP#00 I: 2 tests running: suite:6:remainders tests:5:multiple element list, greater list vals, suite:6:remainders tests:4:multiple element list, div.
+2018-04-05T05:49:02+00:00 Christophs-MBP#00 I: 2 tests running: suite:7:option mean tests:0:empty list, suite:6:remainders tests:5:multiple element list, greater list vals.
+2018-04-05T05:49:02+00:00 Christophs-MBP#02 I: Test suite:6:remainders tests:5:multiple element list, greater list vals is successful.
+2018-04-05T05:49:02+00:00 Christophs-MBP#01 I: Start test suite:7:option mean tests:0:empty list.
+2018-04-05T05:49:02+00:00 Christophs-MBP#00 I: 2 tests running: suite:7:option mean tests:0:empty list, suite:6:remainders tests:5:multiple element list, greater list vals.
+2018-04-05T05:49:02+00:00 Christophs-MBP#02 I: End test suite:6:remainders tests:5:multiple element list, greater list vals.
+2018-04-05T05:49:02+00:00 Christophs-MBP#00 I: 2 tests running: suite:7:option mean tests:0:empty list, suite:6:remainders tests:5:multiple element list, greater list vals.
+2018-04-05T05:49:02+00:00 Christophs-MBP#01 I: Test suite:7:option mean tests:0:empty list is successful.
+2018-04-05T05:49:02+00:00 Christophs-MBP#00 I: 2 tests running: suite:7:option mean tests:1:single element list, suite:7:option mean tests:0:empty list.
+2018-04-05T05:49:02+00:00 Christophs-MBP#01 I: End test suite:7:option mean tests:0:empty list.
+2018-04-05T05:49:02+00:00 Christophs-MBP#02 I: Start test suite:7:option mean tests:1:single element list.
+2018-04-05T05:49:02+00:00 Christophs-MBP#00 I: 2 tests running: suite:7:option mean tests:1:single element list, suite:7:option mean tests:0:empty list.
+2018-04-05T05:49:02+00:00 Christophs-MBP#00 I: 2 tests running: suite:7:option mean tests:2:two element list, suite:7:option mean tests:1:single element list.
+2018-04-05T05:49:02+00:00 Christophs-MBP#01 I: Start test suite:7:option mean tests:2:two element list.
+2018-04-05T05:49:02+00:00 Christophs-MBP#00 I: 2 tests running: suite:7:option mean tests:2:two element list, suite:7:option mean tests:1:single element list.
+2018-04-05T05:49:02+00:00 Christophs-MBP#02 I: Test suite:7:option mean tests:1:single element list is successful.
+2018-04-05T05:49:02+00:00 Christophs-MBP#00 I: 2 tests running: suite:7:option mean tests:2:two element list, suite:7:option mean tests:1:single element list.
+2018-04-05T05:49:02+00:00 Christophs-MBP#02 I: End test suite:7:option mean tests:1:single element list.
+2018-04-05T05:49:02+00:00 Christophs-MBP#00 I: 2 tests running: suite:7:option mean tests:2:two element list, suite:7:option mean tests:1:single element list.
+2018-04-05T05:49:02+00:00 Christophs-MBP#01 I: Test suite:7:option mean tests:2:two element list is successful.
+2018-04-05T05:49:02+00:00 Christophs-MBP#00 I: 2 tests running: suite:7:option mean tests:3:three element list, suite:7:option mean tests:2:two element list.
+2018-04-05T05:49:02+00:00 Christophs-MBP#01 I: End test suite:7:option mean tests:2:two element list.
+2018-04-05T05:49:02+00:00 Christophs-MBP#02 I: Start test suite:7:option mean tests:3:three element list.
+2018-04-05T05:49:02+00:00 Christophs-MBP#00 I: 2 tests running: suite:7:option mean tests:3:three element list, suite:7:option mean tests:2:two element list.
+2018-04-05T05:49:02+00:00 Christophs-MBP#00 I: 2 tests running: suite:7:option mean tests:4:four element list, suite:7:option mean tests:3:three element list.
+2018-04-05T05:49:02+00:00 Christophs-MBP#01 I: Start test suite:7:option mean tests:4:four element list.
+2018-04-05T05:49:02+00:00 Christophs-MBP#00 I: 2 tests running: suite:7:option mean tests:4:four element list, suite:7:option mean tests:3:three element list.
+2018-04-05T05:49:02+00:00 Christophs-MBP#02 I: Test suite:7:option mean tests:3:three element list is successful.
+2018-04-05T05:49:02+00:00 Christophs-MBP#00 I: 2 tests running: suite:7:option mean tests:4:four element list, suite:7:option mean tests:3:three element list.
+2018-04-05T05:49:02+00:00 Christophs-MBP#02 I: End test suite:7:option mean tests:3:three element list.
+2018-04-05T05:49:02+00:00 Christophs-MBP#00 I: 2 tests running: suite:7:option mean tests:4:four element list, suite:7:option mean tests:3:three element list.
+2018-04-05T05:49:02+00:00 Christophs-MBP#00 I: 2 tests running: suite:7:option mean tests:5:list with all zeros, suite:7:option mean tests:4:four element list.
+2018-04-05T05:49:02+00:00 Christophs-MBP#02 I: Start test suite:7:option mean tests:5:list with all zeros.
+2018-04-05T05:49:02+00:00 Christophs-MBP#00 I: 2 tests running: suite:7:option mean tests:5:list with all zeros, suite:7:option mean tests:4:four element list.
+2018-04-05T05:49:02+00:00 Christophs-MBP#01 I: Test suite:7:option mean tests:4:four element list is successful.
+2018-04-05T05:49:02+00:00 Christophs-MBP#00 I: 2 tests running: suite:7:option mean tests:5:list with all zeros, suite:7:option mean tests:4:four element list.
+2018-04-05T05:49:02+00:00 Christophs-MBP#01 I: End test suite:7:option mean tests:4:four element list.
+2018-04-05T05:49:02+00:00 Christophs-MBP#02 I: Test suite:7:option mean tests:5:list with all zeros is successful.
+2018-04-05T05:49:02+00:00 Christophs-MBP#00 I: 2 tests running: suite:7:option mean tests:5:list with all zeros, suite:7:option mean tests:4:four element list.
+2018-04-05T05:49:02+00:00 Christophs-MBP#02 I: End test suite:7:option mean tests:5:list with all zeros.
+2018-04-05T05:49:02+00:00 Christophs-MBP#00 I: 2 tests running: suite:8:option list max tests:0:empty list, suite:7:option mean tests:5:list with all zeros.
+2018-04-05T05:49:02+00:00 Christophs-MBP#01 I: Start test suite:8:option list max tests:0:empty list.
+2018-04-05T05:49:02+00:00 Christophs-MBP#00 I: 2 tests running: suite:8:option list max tests:1:single element list, suite:8:option list max tests:0:empty list.
+2018-04-05T05:49:02+00:00 Christophs-MBP#02 I: Start test suite:8:option list max tests:1:single element list.
+2018-04-05T05:49:02+00:00 Christophs-MBP#00 I: 2 tests running: suite:8:option list max tests:1:single element list, suite:8:option list max tests:0:empty list.
+2018-04-05T05:49:02+00:00 Christophs-MBP#01 I: Test suite:8:option list max tests:0:empty list is successful.
+2018-04-05T05:49:02+00:00 Christophs-MBP#00 I: 2 tests running: suite:8:option list max tests:1:single element list, suite:8:option list max tests:0:empty list.
+2018-04-05T05:49:02+00:00 Christophs-MBP#01 I: End test suite:8:option list max tests:0:empty list.
+2018-04-05T05:49:02+00:00 Christophs-MBP#02 I: Test suite:8:option list max tests:1:single element list is successful.
+2018-04-05T05:49:02+00:00 Christophs-MBP#00 I: 2 tests running: suite:8:option list max tests:1:single element list, suite:8:option list max tests:0:empty list.
+2018-04-05T05:49:02+00:00 Christophs-MBP#02 I: End test suite:8:option list max tests:1:single element list.
+2018-04-05T05:49:02+00:00 Christophs-MBP#00 I: 2 tests running: suite:8:option list max tests:2:two element list, suite:8:option list max tests:1:single element list.
+2018-04-05T05:49:02+00:00 Christophs-MBP#01 I: Start test suite:8:option list max tests:2:two element list.
+2018-04-05T05:49:02+00:00 Christophs-MBP#00 I: 2 tests running: suite:8:option list max tests:3:three element list, suite:8:option list max tests:2:two element list.
+2018-04-05T05:49:02+00:00 Christophs-MBP#02 I: Start test suite:8:option list max tests:3:three element list.
+2018-04-05T05:49:02+00:00 Christophs-MBP#00 I: 2 tests running: suite:8:option list max tests:3:three element list, suite:8:option list max tests:2:two element list.
+2018-04-05T05:49:02+00:00 Christophs-MBP#02 I: Test suite:8:option list max tests:3:three element list is successful.
+2018-04-05T05:49:02+00:00 Christophs-MBP#00 I: 2 tests running: suite:8:option list max tests:3:three element list, suite:8:option list max tests:2:two element list.
+2018-04-05T05:49:02+00:00 Christophs-MBP#02 I: End test suite:8:option list max tests:3:three element list.
+2018-04-05T05:49:02+00:00 Christophs-MBP#00 I: 2 tests running: suite:8:option list max tests:3:three element list, suite:8:option list max tests:2:two element list.
+2018-04-05T05:49:02+00:00 Christophs-MBP#00 I: 2 tests running: suite:8:option list max tests:4:list with max in middle, suite:8:option list max tests:2:two element list.
+2018-04-05T05:49:02+00:00 Christophs-MBP#01 I: Test suite:8:option list max tests:2:two element list is successful.
+2018-04-05T05:49:02+00:00 Christophs-MBP#00 I: 2 tests running: suite:8:option list max tests:4:list with max in middle, suite:8:option list max tests:2:two element list.
+2018-04-05T05:49:02+00:00 Christophs-MBP#01 I: End test suite:8:option list max tests:2:two element list.
+2018-04-05T05:49:02+00:00 Christophs-MBP#00 I: 2 tests running: suite:8:option list max tests:4:list with max in middle, suite:8:option list max tests:2:two element list.
+2018-04-05T05:49:02+00:00 Christophs-MBP#00 I: 2 tests running: suite:8:option list max tests:5:negative maximum, suite:8:option list max tests:4:list with max in middle.
+2018-04-05T05:49:02+00:00 Christophs-MBP#01 I: Start test suite:8:option list max tests:5:negative maximum.
+2018-04-05T05:49:02+00:00 Christophs-MBP#00 I: 2 tests running: suite:8:option list max tests:5:negative maximum, suite:8:option list max tests:4:list with max in middle.
+2018-04-05T05:49:02+00:00 Christophs-MBP#02 I: Start test suite:8:option list max tests:4:list with max in middle.
+2018-04-05T05:49:02+00:00 Christophs-MBP#00 I: 2 tests running: suite:8:option list max tests:5:negative maximum, suite:8:option list max tests:4:list with max in middle.
+2018-04-05T05:49:02+00:00 Christophs-MBP#02 I: Test suite:8:option list max tests:4:list with max in middle is successful.
+2018-04-05T05:49:02+00:00 Christophs-MBP#00 I: 2 tests running: suite:8:option list max tests:5:negative maximum, suite:8:option list max tests:4:list with max in middle.
+2018-04-05T05:49:02+00:00 Christophs-MBP#02 I: End test suite:8:option list max tests:4:list with max in middle.
+2018-04-05T05:49:02+00:00 Christophs-MBP#01 I: Test suite:8:option list max tests:5:negative maximum is successful.
+2018-04-05T05:49:02+00:00 Christophs-MBP#00 I: 2 tests running: suite:8:option list max tests:5:negative maximum, suite:8:option list max tests:4:list with max in middle.
+2018-04-05T05:49:02+00:00 Christophs-MBP#01 I: End test suite:8:option list max tests:5:negative maximum.
+2018-04-05T05:49:02+00:00 Christophs-MBP#00 I: 2 tests running: suite:8:option list max tests:6:list with all zeros, suite:8:option list max tests:5:negative maximum.
+2018-04-05T05:49:02+00:00 Christophs-MBP#02 I: Start test suite:8:option list max tests:6:list with all zeros.
+2018-04-05T05:49:02+00:00 Christophs-MBP#00 I: 2 tests running: suite:9:list increment tests:0:increment_all empty, suite:8:option list max tests:6:list with all zeros.
+2018-04-05T05:49:02+00:00 Christophs-MBP#01 I: Start test suite:9:list increment tests:0:increment_all empty.
+2018-04-05T05:49:02+00:00 Christophs-MBP#00 I: 2 tests running: suite:9:list increment tests:0:increment_all empty, suite:8:option list max tests:6:list with all zeros.
+2018-04-05T05:49:02+00:00 Christophs-MBP#02 I: Test suite:8:option list max tests:6:list with all zeros is successful.
+2018-04-05T05:49:02+00:00 Christophs-MBP#00 I: 2 tests running: suite:9:list increment tests:0:increment_all empty, suite:8:option list max tests:6:list with all zeros.
+2018-04-05T05:49:02+00:00 Christophs-MBP#02 I: End test suite:8:option list max tests:6:list with all zeros.
+2018-04-05T05:49:02+00:00 Christophs-MBP#01 I: Test suite:9:list increment tests:0:increment_all empty is successful.
+2018-04-05T05:49:02+00:00 Christophs-MBP#00 I: 2 tests running: suite:9:list increment tests:0:increment_all empty, suite:8:option list max tests:6:list with all zeros.
+2018-04-05T05:49:02+00:00 Christophs-MBP#01 I: End test suite:9:list increment tests:0:increment_all empty.
+2018-04-05T05:49:02+00:00 Christophs-MBP#00 I: 2 tests running: suite:9:list increment tests:1:increment_all one element, suite:9:list increment tests:0:increment_all empty.
+2018-04-05T05:49:02+00:00 Christophs-MBP#00 I: 2 tests running: suite:9:list increment tests:2:increment_all zeros, suite:9:list increment tests:1:increment_all one element.
+2018-04-05T05:49:02+00:00 Christophs-MBP#02 I: Start test suite:9:list increment tests:1:increment_all one element.
+2018-04-05T05:49:02+00:00 Christophs-MBP#01 I: Start test suite:9:list increment tests:2:increment_all zeros.
+2018-04-05T05:49:02+00:00 Christophs-MBP#00 I: 2 tests running: suite:9:list increment tests:2:increment_all zeros, suite:9:list increment tests:1:increment_all one element.
+2018-04-05T05:49:02+00:00 Christophs-MBP#02 I: Test suite:9:list increment tests:1:increment_all one element is successful.
+2018-04-05T05:49:02+00:00 Christophs-MBP#01 I: Test suite:9:list increment tests:2:increment_all zeros is successful.
+2018-04-05T05:49:02+00:00 Christophs-MBP#00 I: 2 tests running: suite:9:list increment tests:2:increment_all zeros, suite:9:list increment tests:1:increment_all one element.
+2018-04-05T05:49:02+00:00 Christophs-MBP#02 I: End test suite:9:list increment tests:1:increment_all one element.
+2018-04-05T05:49:02+00:00 Christophs-MBP#01 I: End test suite:9:list increment tests:2:increment_all zeros.
+2018-04-05T05:49:02+00:00 Christophs-MBP#00 I: 2 tests running: suite:9:list increment tests:2:increment_all zeros, suite:9:list increment tests:1:increment_all one element.
+2018-04-05T05:49:02+00:00 Christophs-MBP#00 I: 2 tests running: suite:10:list long strings tests:0:long_strings empty, suite:9:list increment tests:3:increment_all nums.
+2018-04-05T05:49:02+00:00 Christophs-MBP#01 I: Start test suite:9:list increment tests:3:increment_all nums.
+2018-04-05T05:49:02+00:00 Christophs-MBP#02 I: Start test suite:10:list long strings tests:0:long_strings empty.
+2018-04-05T05:49:02+00:00 Christophs-MBP#00 I: 2 tests running: suite:10:list long strings tests:0:long_strings empty, suite:9:list increment tests:3:increment_all nums.
+2018-04-05T05:49:02+00:00 Christophs-MBP#01 I: Test suite:9:list increment tests:3:increment_all nums is successful.
+2018-04-05T05:49:02+00:00 Christophs-MBP#02 I: Test suite:10:list long strings tests:0:long_strings empty is successful.
+2018-04-05T05:49:02+00:00 Christophs-MBP#00 I: 2 tests running: suite:10:list long strings tests:0:long_strings empty, suite:9:list increment tests:3:increment_all nums.
+2018-04-05T05:49:02+00:00 Christophs-MBP#01 I: End test suite:9:list increment tests:3:increment_all nums.
+2018-04-05T05:49:02+00:00 Christophs-MBP#02 I: End test suite:10:list long strings tests:0:long_strings empty.
+2018-04-05T05:49:02+00:00 Christophs-MBP#00 I: 2 tests running: suite:10:list long strings tests:0:long_strings empty, suite:9:list increment tests:3:increment_all nums.
+2018-04-05T05:49:02+00:00 Christophs-MBP#00 I: 2 tests running: suite:10:list long strings tests:2:long_strings less than int, suite:10:list long strings tests:1:long_strings one element.
+2018-04-05T05:49:02+00:00 Christophs-MBP#02 I: Start test suite:10:list long strings tests:1:long_strings one element.
+2018-04-05T05:49:02+00:00 Christophs-MBP#01 I: Start test suite:10:list long strings tests:2:long_strings less than int.
+2018-04-05T05:49:02+00:00 Christophs-MBP#00 I: 2 tests running: suite:10:list long strings tests:2:long_strings less than int, suite:10:list long strings tests:1:long_strings one element.
+2018-04-05T05:49:02+00:00 Christophs-MBP#02 I: Test suite:10:list long strings tests:1:long_strings one element is successful.
+2018-04-05T05:49:02+00:00 Christophs-MBP#01 I: Test suite:10:list long strings tests:2:long_strings less than int is successful.
+2018-04-05T05:49:02+00:00 Christophs-MBP#00 I: 2 tests running: suite:10:list long strings tests:2:long_strings less than int, suite:10:list long strings tests:1:long_strings one element.
+2018-04-05T05:49:02+00:00 Christophs-MBP#02 I: End test suite:10:list long strings tests:1:long_strings one element.
+2018-04-05T05:49:02+00:00 Christophs-MBP#01 I: End test suite:10:list long strings tests:2:long_strings less than int.
+2018-04-05T05:49:02+00:00 Christophs-MBP#00 I: 2 tests running: suite:10:list long strings tests:2:long_strings less than int, suite:10:list long strings tests:1:long_strings one element.
+2018-04-05T05:49:02+00:00 Christophs-MBP#00 I: 2 tests running: suite:10:list long strings tests:4:long_strings mix, suite:10:list long strings tests:3:long_strings greater than int.
+2018-04-05T05:49:02+00:00 Christophs-MBP#01 I: Start test suite:10:list long strings tests:3:long_strings greater than int.
+2018-04-05T05:49:02+00:00 Christophs-MBP#00 I: 2 tests running: suite:10:list long strings tests:4:long_strings mix, suite:10:list long strings tests:3:long_strings greater than int.
+2018-04-05T05:49:02+00:00 Christophs-MBP#02 I: Start test suite:10:list long strings tests:4:long_strings mix.
+2018-04-05T05:49:02+00:00 Christophs-MBP#00 I: 2 tests running: suite:10:list long strings tests:4:long_strings mix, suite:10:list long strings tests:3:long_strings greater than int.
+2018-04-05T05:49:02+00:00 Christophs-MBP#01 I: Test suite:10:list long strings tests:3:long_strings greater than int is successful.
+2018-04-05T05:49:02+00:00 Christophs-MBP#00 I: 2 tests running: suite:10:list long strings tests:4:long_strings mix, suite:10:list long strings tests:3:long_strings greater than int.
+2018-04-05T05:49:02+00:00 Christophs-MBP#01 I: End test suite:10:list long strings tests:3:long_strings greater than int.
+2018-04-05T05:49:02+00:00 Christophs-MBP#00 I: 2 tests running: suite:10:list long strings tests:4:long_strings mix, suite:10:list long strings tests:3:long_strings greater than int.
+2018-04-05T05:49:02+00:00 Christophs-MBP#02 I: Test suite:10:list long strings tests:4:long_strings mix is successful.
+2018-04-05T05:49:02+00:00 Christophs-MBP#00 I: 2 tests running: suite:11:every other tests:0:every_other empty, suite:10:list long strings tests:4:long_strings mix.
+2018-04-05T05:49:02+00:00 Christophs-MBP#02 I: End test suite:10:list long strings tests:4:long_strings mix.
+2018-04-05T05:49:02+00:00 Christophs-MBP#01 I: Start test suite:11:every other tests:0:every_other empty.
+2018-04-05T05:49:02+00:00 Christophs-MBP#00 I: 2 tests running: suite:11:every other tests:0:every_other empty, suite:10:list long strings tests:4:long_strings mix.
+2018-04-05T05:49:02+00:00 Christophs-MBP#00 I: 2 tests running: suite:11:every other tests:1:every_other one element, suite:11:every other tests:0:every_other empty.
+2018-04-05T05:49:02+00:00 Christophs-MBP#01 I: Test suite:11:every other tests:0:every_other empty is successful.
+2018-04-05T05:49:02+00:00 Christophs-MBP#00 I: 2 tests running: suite:11:every other tests:1:every_other one element, suite:11:every other tests:0:every_other empty.
+2018-04-05T05:49:02+00:00 Christophs-MBP#01 I: End test suite:11:every other tests:0:every_other empty.
+2018-04-05T05:49:02+00:00 Christophs-MBP#02 I: Start test suite:11:every other tests:1:every_other one element.
+2018-04-05T05:49:02+00:00 Christophs-MBP#00 I: 2 tests running: suite:11:every other tests:1:every_other one element, suite:11:every other tests:0:every_other empty.
+2018-04-05T05:49:02+00:00 Christophs-MBP#00 I: 2 tests running: suite:11:every other tests:2:every_other two element, suite:11:every other tests:1:every_other one element.
+2018-04-05T05:49:02+00:00 Christophs-MBP#01 I: Start test suite:11:every other tests:2:every_other two element.
+2018-04-05T05:49:02+00:00 Christophs-MBP#00 I: 2 tests running: suite:11:every other tests:2:every_other two element, suite:11:every other tests:1:every_other one element.
+2018-04-05T05:49:02+00:00 Christophs-MBP#02 I: Test suite:11:every other tests:1:every_other one element is successful.
+2018-04-05T05:49:02+00:00 Christophs-MBP#00 I: 2 tests running: suite:11:every other tests:2:every_other two element, suite:11:every other tests:1:every_other one element.
+2018-04-05T05:49:02+00:00 Christophs-MBP#02 I: End test suite:11:every other tests:1:every_other one element.
+2018-04-05T05:49:02+00:00 Christophs-MBP#00 I: 2 tests running: suite:11:every other tests:2:every_other two element, suite:11:every other tests:1:every_other one element.
+2018-04-05T05:49:02+00:00 Christophs-MBP#01 I: Test suite:11:every other tests:2:every_other two element is successful.
+2018-04-05T05:49:02+00:00 Christophs-MBP#00 I: 2 tests running: suite:11:every other tests:3:every_other multiple, suite:11:every other tests:2:every_other two element.
+2018-04-05T05:49:02+00:00 Christophs-MBP#01 I: End test suite:11:every other tests:2:every_other two element.
+2018-04-05T05:49:02+00:00 Christophs-MBP#00 I: 2 tests running: suite:11:every other tests:3:every_other multiple, suite:11:every other tests:2:every_other two element.
+2018-04-05T05:49:02+00:00 Christophs-MBP#00 I: 2 tests running: suite:11:every other tests:4:every_other multiple pairlist, suite:11:every other tests:3:every_other multiple.
+2018-04-05T05:49:02+00:00 Christophs-MBP#02 I: Start test suite:11:every other tests:3:every_other multiple.
+2018-04-05T05:49:02+00:00 Christophs-MBP#01 I: Start test suite:11:every other tests:4:every_other multiple pairlist.
+2018-04-05T05:49:02+00:00 Christophs-MBP#00 I: 2 tests running: suite:11:every other tests:4:every_other multiple pairlist, suite:11:every other tests:3:every_other multiple.
+2018-04-05T05:49:02+00:00 Christophs-MBP#01 I: Test suite:11:every other tests:4:every_other multiple pairlist is successful.
+2018-04-05T05:49:02+00:00 Christophs-MBP#00 I: 2 tests running: suite:11:every other tests:4:every_other multiple pairlist, suite:11:every other tests:3:every_other multiple.
+2018-04-05T05:49:02+00:00 Christophs-MBP#02 I: Test suite:11:every other tests:3:every_other multiple is successful.
+2018-04-05T05:49:02+00:00 Christophs-MBP#01 I: End test suite:11:every other tests:4:every_other multiple pairlist.
+2018-04-05T05:49:02+00:00 Christophs-MBP#00 I: 2 tests running: suite:11:every other tests:4:every_other multiple pairlist, suite:11:every other tests:3:every_other multiple.
+2018-04-05T05:49:02+00:00 Christophs-MBP#02 I: End test suite:11:every other tests:3:every_other multiple.
+2018-04-05T05:49:02+00:00 Christophs-MBP#00 I: 2 tests running: suite:12:list sum all tests:0:sum_all empty, suite:11:every other tests:3:every_other multiple.
+2018-04-05T05:49:02+00:00 Christophs-MBP#01 I: Start test suite:12:list sum all tests:0:sum_all empty.
+2018-04-05T05:49:02+00:00 Christophs-MBP#00 I: 2 tests running: suite:12:list sum all tests:1:sum_all one element in single list, suite:12:list sum all tests:0:sum_all empty.
+2018-04-05T05:49:02+00:00 Christophs-MBP#02 I: Start test suite:12:list sum all tests:1:sum_all one element in single list.
+2018-04-05T05:49:02+00:00 Christophs-MBP#00 I: 2 tests running: suite:12:list sum all tests:1:sum_all one element in single list, suite:12:list sum all tests:0:sum_all empty.
+2018-04-05T05:49:02+00:00 Christophs-MBP#01 I: Test suite:12:list sum all tests:0:sum_all empty is successful.
+2018-04-05T05:49:02+00:00 Christophs-MBP#00 I: 2 tests running: suite:12:list sum all tests:1:sum_all one element in single list, suite:12:list sum all tests:0:sum_all empty.
+2018-04-05T05:49:02+00:00 Christophs-MBP#01 I: End test suite:12:list sum all tests:0:sum_all empty.
+2018-04-05T05:49:02+00:00 Christophs-MBP#02 I: Test suite:12:list sum all tests:1:sum_all one element in single list is successful.
+2018-04-05T05:49:02+00:00 Christophs-MBP#00 I: 2 tests running: suite:12:list sum all tests:1:sum_all one element in single list, suite:12:list sum all tests:0:sum_all empty.
+2018-04-05T05:49:02+00:00 Christophs-MBP#02 I: End test suite:12:list sum all tests:1:sum_all one element in single list.
+2018-04-05T05:49:02+00:00 Christophs-MBP#00 I: 2 tests running: suite:12:list sum all tests:2:sum_all mult element in single list, suite:12:list sum all tests:1:sum_all one element in single list.
+2018-04-05T05:49:02+00:00 Christophs-MBP#01 I: Start test suite:12:list sum all tests:2:sum_all mult element in single list.
+2018-04-05T05:49:02+00:00 Christophs-MBP#00 I: 2 tests running: suite:12:list sum all tests:3:sum_all mult element in two lists, suite:12:list sum all tests:2:sum_all mult element in single list.
+2018-04-05T05:49:02+00:00 Christophs-MBP#02 I: Start test suite:12:list sum all tests:3:sum_all mult element in two lists.
+2018-04-05T05:49:02+00:00 Christophs-MBP#00 I: 2 tests running: suite:12:list sum all tests:3:sum_all mult element in two lists, suite:12:list sum all tests:2:sum_all mult element in single list.
+2018-04-05T05:49:02+00:00 Christophs-MBP#01 I: Test suite:12:list sum all tests:2:sum_all mult element in single list is successful.
+2018-04-05T05:49:02+00:00 Christophs-MBP#00 I: 2 tests running: suite:12:list sum all tests:3:sum_all mult element in two lists, suite:12:list sum all tests:2:sum_all mult element in single list.
+2018-04-05T05:49:02+00:00 Christophs-MBP#01 I: End test suite:12:list sum all tests:2:sum_all mult element in single list.
+2018-04-05T05:49:02+00:00 Christophs-MBP#00 I: 2 tests running: suite:12:list sum all tests:3:sum_all mult element in two lists, suite:12:list sum all tests:2:sum_all mult element in single list.
+2018-04-05T05:49:02+00:00 Christophs-MBP#00 I: Still 2 tests running : suite:12:list sum all tests:4:sum_all mult element in mult lists, suite:12:list sum all tests:3:sum_all mult element in two lists.
+2018-04-05T05:49:02+00:00 Christophs-MBP#00 I: 2 tests running: suite:12:list sum all tests:4:sum_all mult element in mult lists, suite:12:list sum all tests:3:sum_all mult element in two lists.
+2018-04-05T05:49:02+00:00 Christophs-MBP#02 I: Test suite:12:list sum all tests:3:sum_all mult element in two lists is successful.
+2018-04-05T05:49:02+00:00 Christophs-MBP#01 I: Start test suite:12:list sum all tests:4:sum_all mult element in mult lists.
+2018-04-05T05:49:02+00:00 Christophs-MBP#00 I: Still 2 tests running : suite:12:list sum all tests:4:sum_all mult element in mult lists, suite:12:list sum all tests:3:sum_all mult element in two lists.
+2018-04-05T05:49:02+00:00 Christophs-MBP#00 I: 2 tests running: suite:12:list sum all tests:4:sum_all mult element in mult lists, suite:12:list sum all tests:3:sum_all mult element in two lists.
+2018-04-05T05:49:02+00:00 Christophs-MBP#02 I: End test suite:12:list sum all tests:3:sum_all mult element in two lists.
+2018-04-05T05:49:02+00:00 Christophs-MBP#00 I: Still 2 tests running : suite:12:list sum all tests:4:sum_all mult element in mult lists, suite:12:list sum all tests:3:sum_all mult element in two lists.
+2018-04-05T05:49:02+00:00 Christophs-MBP#00 I: 2 tests running: suite:12:list sum all tests:4:sum_all mult element in mult lists, suite:12:list sum all tests:3:sum_all mult element in two lists.
+2018-04-05T05:49:02+00:00 Christophs-MBP#00 I: Still 1 tests running : suite:12:list sum all tests:4:sum_all mult element in mult lists.
+2018-04-05T05:49:02+00:00 Christophs-MBP#00 I: 1 tests running: suite:12:list sum all tests:4:sum_all mult element in mult lists.
+2018-04-05T05:49:02+00:00 Christophs-MBP#01 I: Test suite:12:list sum all tests:4:sum_all mult element in mult lists is successful.
+2018-04-05T05:49:02+00:00 Christophs-MBP#00 I: Still 1 tests running : suite:12:list sum all tests:4:sum_all mult element in mult lists.
+2018-04-05T05:49:02+00:00 Christophs-MBP#00 I: 1 tests running: suite:12:list sum all tests:4:sum_all mult element in mult lists.
+2018-04-05T05:49:02+00:00 Christophs-MBP#01 I: End test suite:12:list sum all tests:4:sum_all mult element in mult lists.
+2018-04-05T05:49:02+00:00 Christophs-MBP#00 I: Still 1 tests running : suite:12:list sum all tests:4:sum_all mult element in mult lists.
+2018-04-05T05:49:02+00:00 Christophs-MBP#00 I: 1 tests running: suite:12:list sum all tests:4:sum_all mult element in mult lists.
+2018-04-05T05:49:02+00:00 Christophs-MBP#00 I: 0 tests running: .
+2018-04-05T05:49:02+00:00 Christophs-MBP#00 I: Worker Christophs-MBP#02 has ended.
+2018-04-05T05:49:02+00:00 Christophs-MBP#00 I: Worker Christophs-MBP#01 has ended.
+2018-04-05T05:49:02+00:00 Christophs-MBP#00 I: Used 2 worker during test execution.
+2018-04-05T05:49:02+00:00 Christophs-MBP#00 I: Run 36 tests with shard Christophs-MBP#01.
+2018-04-05T05:49:02+00:00 Christophs-MBP#00 I: Run 33 tests with shard Christophs-MBP#02.
+2018-04-05T05:49:02+00:00 Christophs-MBP#00 I: ==============
+2018-04-05T05:49:02+00:00 Christophs-MBP#00 I: Summary:
+2018-04-05T05:49:02+00:00 Christophs-MBP#00 I: Test suite:12:list sum all tests:4:sum_all mult element in mult lists is successful.
+2018-04-05T05:49:02+00:00 Christophs-MBP#00 I: Test suite:12:list sum all tests:3:sum_all mult element in two lists is successful.
+2018-04-05T05:49:02+00:00 Christophs-MBP#00 I: Test suite:12:list sum all tests:2:sum_all mult element in single list is successful.
+2018-04-05T05:49:02+00:00 Christophs-MBP#00 I: Test suite:12:list sum all tests:1:sum_all one element in single list is successful.
+2018-04-05T05:49:02+00:00 Christophs-MBP#00 I: Test suite:12:list sum all tests:0:sum_all empty is successful.
+2018-04-05T05:49:02+00:00 Christophs-MBP#00 I: Test suite:11:every other tests:3:every_other multiple is successful.
+2018-04-05T05:49:02+00:00 Christophs-MBP#00 I: Test suite:11:every other tests:4:every_other multiple pairlist is successful.
+2018-04-05T05:49:02+00:00 Christophs-MBP#00 I: Test suite:11:every other tests:2:every_other two element is successful.
+2018-04-05T05:49:02+00:00 Christophs-MBP#00 I: Test suite:11:every other tests:1:every_other one element is successful.
+2018-04-05T05:49:02+00:00 Christophs-MBP#00 I: Test suite:11:every other tests:0:every_other empty is successful.
+2018-04-05T05:49:02+00:00 Christophs-MBP#00 I: Test suite:10:list long strings tests:4:long_strings mix is successful.
+2018-04-05T05:49:02+00:00 Christophs-MBP#00 I: Test suite:10:list long strings tests:3:long_strings greater than int is successful.
+2018-04-05T05:49:02+00:00 Christophs-MBP#00 I: Test suite:10:list long strings tests:2:long_strings less than int is successful.
+2018-04-05T05:49:02+00:00 Christophs-MBP#00 I: Test suite:10:list long strings tests:1:long_strings one element is successful.
+2018-04-05T05:49:02+00:00 Christophs-MBP#00 I: Test suite:10:list long strings tests:0:long_strings empty is successful.
+2018-04-05T05:49:02+00:00 Christophs-MBP#00 I: Test suite:9:list increment tests:3:increment_all nums is successful.
+2018-04-05T05:49:02+00:00 Christophs-MBP#00 I: Test suite:9:list increment tests:2:increment_all zeros is successful.
+2018-04-05T05:49:02+00:00 Christophs-MBP#00 I: Test suite:9:list increment tests:1:increment_all one element is successful.
+2018-04-05T05:49:02+00:00 Christophs-MBP#00 I: Test suite:9:list increment tests:0:increment_all empty is successful.
+2018-04-05T05:49:02+00:00 Christophs-MBP#00 I: Test suite:8:option list max tests:6:list with all zeros is successful.
+2018-04-05T05:49:02+00:00 Christophs-MBP#00 I: Test suite:8:option list max tests:5:negative maximum is successful.
+2018-04-05T05:49:02+00:00 Christophs-MBP#00 I: Test suite:8:option list max tests:4:list with max in middle is successful.
+2018-04-05T05:49:02+00:00 Christophs-MBP#00 I: Test suite:8:option list max tests:2:two element list is successful.
+2018-04-05T05:49:02+00:00 Christophs-MBP#00 I: Test suite:8:option list max tests:3:three element list is successful.
+2018-04-05T05:49:02+00:00 Christophs-MBP#00 I: Test suite:8:option list max tests:1:single element list is successful.
+2018-04-05T05:49:02+00:00 Christophs-MBP#00 I: Test suite:8:option list max tests:0:empty list is successful.
+2018-04-05T05:49:02+00:00 Christophs-MBP#00 I: Test suite:7:option mean tests:5:list with all zeros is successful.
+2018-04-05T05:49:02+00:00 Christophs-MBP#00 I: Test suite:7:option mean tests:4:four element list is successful.
+2018-04-05T05:49:02+00:00 Christophs-MBP#00 I: Test suite:7:option mean tests:3:three element list is successful.
+2018-04-05T05:49:02+00:00 Christophs-MBP#00 I: Test suite:7:option mean tests:2:two element list is successful.
+2018-04-05T05:49:02+00:00 Christophs-MBP#00 I: Test suite:7:option mean tests:1:single element list is successful.
+2018-04-05T05:49:02+00:00 Christophs-MBP#00 I: Test suite:7:option mean tests:0:empty list is successful.
+2018-04-05T05:49:02+00:00 Christophs-MBP#00 I: Test suite:6:remainders tests:5:multiple element list, greater list vals is successful.
+2018-04-05T05:49:02+00:00 Christophs-MBP#00 I: Test suite:6:remainders tests:4:multiple element list, div is successful.
+2018-04-05T05:49:02+00:00 Christophs-MBP#00 I: Test suite:6:remainders tests:3:multiple element list, no div is successful.
+2018-04-05T05:49:02+00:00 Christophs-MBP#00 I: Test suite:6:remainders tests:2:single element list, div is successful.
+2018-04-05T05:49:02+00:00 Christophs-MBP#00 I: Test suite:6:remainders tests:1:single element list, no div is successful.
+2018-04-05T05:49:02+00:00 Christophs-MBP#00 I: Test suite:6:remainders tests:0:empty list remainders is successful.
+2018-04-05T05:49:02+00:00 Christophs-MBP#00 I: Test suite:5:sum of squares tests:4:long list, negatives is successful.
+2018-04-05T05:49:02+00:00 Christophs-MBP#00 I: Test suite:5:sum of squares tests:3:multiple elements, first non-zero is successful.
+2018-04-05T05:49:02+00:00 Christophs-MBP#00 I: Test suite:5:sum of squares tests:2:multiple elements, second non-zero is successful.
+2018-04-05T05:49:02+00:00 Christophs-MBP#00 I: Test suite:5:sum of squares tests:1:single element is successful.
+2018-04-05T05:49:02+00:00 Christophs-MBP#00 I: Test suite:5:sum of squares tests:0:empty list sum of squares is successful.
+2018-04-05T05:49:02+00:00 Christophs-MBP#00 I: Test suite:4:tree height tests:6:node with taller right subtree is successful.
+2018-04-05T05:49:02+00:00 Christophs-MBP#00 I: Test suite:4:tree height tests:5:node with taller left subtree is successful.
+2018-04-05T05:49:02+00:00 Christophs-MBP#00 I: Test suite:4:tree height tests:4:node with two children is successful.
+2018-04-05T05:49:02+00:00 Christophs-MBP#00 I: Test suite:4:tree height tests:3:node with right child is successful.
+2018-04-05T05:49:02+00:00 Christophs-MBP#00 I: Test suite:4:tree height tests:2:node with left child is successful.
+2018-04-05T05:49:02+00:00 Christophs-MBP#00 I: Test suite:4:tree height tests:1:one node is successful.
+2018-04-05T05:49:02+00:00 Christophs-MBP#00 I: Test suite:4:tree height tests:0:just a leaf is successful.
+2018-04-05T05:49:02+00:00 Christophs-MBP#00 I: Test suite:3:tree size tests:4:node with two children is successful.
+2018-04-05T05:49:02+00:00 Christophs-MBP#00 I: Test suite:3:tree size tests:3:node with right child is successful.
+2018-04-05T05:49:02+00:00 Christophs-MBP#00 I: Test suite:3:tree size tests:2:node with left child is successful.
+2018-04-05T05:49:02+00:00 Christophs-MBP#00 I: Test suite:3:tree size tests:1:one node is successful.
+2018-04-05T05:49:02+00:00 Christophs-MBP#00 I: Test suite:3:tree size tests:0:just a leaf is successful.
+2018-04-05T05:49:02+00:00 Christophs-MBP#00 I: Test suite:2:tree inorder tests:4:node with two children is successful.
+2018-04-05T05:49:02+00:00 Christophs-MBP#00 I: Test suite:2:tree inorder tests:3:node with right child is successful.
+2018-04-05T05:49:02+00:00 Christophs-MBP#00 I: Test suite:2:tree inorder tests:2:node with left child is successful.
+2018-04-05T05:49:02+00:00 Christophs-MBP#00 I: Test suite:2:tree inorder tests:0:just a leaf is successful.
+2018-04-05T05:49:02+00:00 Christophs-MBP#00 I: Test suite:2:tree inorder tests:1:one node is successful.
+2018-04-05T05:49:02+00:00 Christophs-MBP#00 I: Test suite:1:max tests:4:zero case is successful.
+2018-04-05T05:49:02+00:00 Christophs-MBP#00 I: Test suite:1:max tests:3:negative nums is successful.
+2018-04-05T05:49:02+00:00 Christophs-MBP#00 I: Test suite:1:max tests:2:second smaller is successful.
+2018-04-05T05:49:02+00:00 Christophs-MBP#00 I: Test suite:1:max tests:1:first smaller is successful.
+2018-04-05T05:49:02+00:00 Christophs-MBP#00 I: Test suite:1:max tests:0:equal max is successful.
+2018-04-05T05:49:02+00:00 Christophs-MBP#00 I: Test suite:0:fib tests:3:larger val is successful.
+2018-04-05T05:49:02+00:00 Christophs-MBP#00 I: Test suite:0:fib tests:2:one recurse is successful.
+2018-04-05T05:49:02+00:00 Christophs-MBP#00 I: Test suite:0:fib tests:1:one case is successful.
+2018-04-05T05:49:02+00:00 Christophs-MBP#00 I: Test suite:0:fib tests:0:zero case is successful.
+2018-04-05T05:49:02+00:00 Christophs-MBP#00 I: Ran: 69 tests in: 0.12 seconds.
+2018-04-05T05:49:02+00:00 Christophs-MBP#00 I: Cases: 69.
+2018-04-05T05:49:02+00:00 Christophs-MBP#00 I: Tried: 69.
+2018-04-05T05:49:02+00:00 Christophs-MBP#00 I: Errors: 0.
+2018-04-05T05:49:02+00:00 Christophs-MBP#00 I: Failures: 0.
+2018-04-05T05:49:02+00:00 Christophs-MBP#00 I: Skip: 0.
+2018-04-05T05:49:02+00:00 Christophs-MBP#00 I: Todo: 0.
+2018-04-05T05:49:02+00:00 Christophs-MBP#00 I: Timeout: 0.
